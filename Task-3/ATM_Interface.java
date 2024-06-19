@@ -23,7 +23,7 @@ public static void main(String[] args) {
 
 private static void printMenu() {
 System.out.println("\u001B[33m*************************************************\u001B[0m"); //yellow color for border
-System.out.println("\u001B[33m**            \u001B[32mWelcome To ATM \u001B[33m     **\u001B[0m");  //green color for header
+System.out.println("\u001B[33m**            \u001B[32mWelcome To ATM \u001B[33m       **\u001B[0m");  //green color for header
 System.out.println("\u001B[33m*************************************************\u001B[0m");
 System.out.println("\u001B[36m1. Check Balance\u001B[0m");
 System.out.println("\u001B[36m2. Withdraw\u001B[0m");
