@@ -20,7 +20,7 @@ public static void main(String[] args) {
 
     // Main menu
      while(true){
-        System.out.println("\n  Course Management System");
+        System.out.println("\nCourse Management System");
         System.out.println("1. List Courses");
         System.out.println("2. Register for a Course");
         System.out.println("3. Drop a Course");
@@ -180,11 +180,18 @@ public static void main(String[] args) {
       public int getId() {
          return id;
       }
+      public String getName(){
+         return name;
+      }
       public void registerCourse(Course course){
          registeredCourses.add(course);
       }
       public boolean dropCourse(Course course){
          return registeredCourses.remove(course);
+      }
+      @Override
+      public String toString() {
+         return "Student ID: " + id  + ", Name: " + name + ", Registered Courses: " + registeredCourses;
       }
      }
    
